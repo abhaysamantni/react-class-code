@@ -1,0 +1,6 @@
+Code snippet for example mentioned in Slides 7 to 13 from Deck - 05_Context API
+
+For 1st step refer MyContext.js
+For 2nd step refer MyProvider.js
+For 3rd step refer App.js
+For 4th step refer ChildComponent.js
