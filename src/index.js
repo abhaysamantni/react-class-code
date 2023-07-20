@@ -6,14 +6,20 @@ import './index.css';
 //import App from './App';
 //import MyComponent from './MyCompClass';
 
-import MyComponent from './MyCompClass';
-
+//import App1 from './FuncAsProp';
+//import Form from './Forms';
+import DropDownExample from './DropDown';
+import Form from './Forms';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyComponent/>
+    <DropDownExample/>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <Form/>
   </React.StrictMode>
 );
 
