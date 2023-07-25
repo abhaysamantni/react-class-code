@@ -10,13 +10,15 @@ import './index.css';
 //import Form from './Forms';
 //import DropDownExample from './DropDown';
 //import Form from './Forms';
-import App1 from './MyCompFunc';
+//import App1 from './MyCompFunc';
+//import App1 from './App1';
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App1/>
+    <App2/>
   </React.StrictMode>
 );
 

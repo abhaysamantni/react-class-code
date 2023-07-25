@@ -1,26 +1,27 @@
 
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//import "bootstrap/dist/css/bootstrap.css";
+//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import About from "./React-Router-Hooks/About";
+//import About from "./React-Router-Hooks/About";
 import { Outlet } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import Products from "./React-Router-Hooks/Products";
 import PageNotFound from "./React-Router-Hooks/PageNotFound";
 //import Layout from "./components/React-Router-Hooks/Layout";
-
+import {Routes, Route, Link } from "react-router-dom";
+  
 import Home from "./React-Router/Home";
 import { useParams } from "react-router-dom";
-//import About from "./React-Router/About";
+import About from "./React-Router/About";
 
 
 // React-Router deck slides 23 to 25
-/*
+
 function App2() {
   return (
     <div>
-       <Router>
+       
       <nav>
         <ul>
           <li>
@@ -33,16 +34,16 @@ function App2() {
       </nav>
 
      
-        <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/about" element={ <About/>}></Route>
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/about" element={ <About/>}></Route>
+      </Routes>
+      
     </div>
   );
 }
+export default App2;
 
-*/
 /*
 // The following two functions are the example of React-Router Slide no 16 and 17 
 function Layout() {
@@ -123,7 +124,7 @@ const App2 = () => {
 
 //Slide deck name - 05_Context API
 //Topic - User theme app (Slide no. 14 to 19)
-
+/*
 import ThemeProvider from "./ConextAPI/ThemeContextExample/ThemeProvider";
 import ThemeButton from "./ConextAPI/ThemeContextExample/ThemeButton";
 const App2 = () => {
@@ -133,6 +134,7 @@ const App2 = () => {
     </ThemeProvider>
   )
 }
+*/
 
 
 
@@ -169,4 +171,4 @@ const App = () => {
   );
   };
 */
-export default App2;
+//export default App2;
