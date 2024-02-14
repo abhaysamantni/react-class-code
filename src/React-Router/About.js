@@ -1,6 +1,6 @@
 import React from 'react'
 
-// React-Router deck Slide 22
+// React-Router
 const About = () => {
   return (
     <div>About</div>

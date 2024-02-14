@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 class MyComponent extends Component {
   constructor(props) {
     super(props);
-    this.state = { message: 'Hello, Welcome to APAD!' };
+    this.state = { message: 'Hello, Welcome to EE461L!' };
   }
 
 

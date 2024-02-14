@@ -1,14 +1,21 @@
-// In this example, the Welcome component takes a name prop and displays a greeting with the name.
-// The App component uses the Welcome component multiple times, passing a different name prop each time.
-// Props can be of any type, such as numbers, strings, arrays, or objects. 
-// You can also use React's PropTypes library to define the type of props that a component should receive.
 
 
+
+/**
+ * A React component that renders a form with an input field for the user to 
+ * enter their name.
+ * @component
+ */
 import React, { useState } from 'react';
 
 function Form() {
   const [inputValue, setInputValue] = useState('');
 
+  /**
+   * Event handler for input change.
+   * Updates the input value state with the new value entered by the user.
+   * @param {object} event - The event object.
+   */
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   }

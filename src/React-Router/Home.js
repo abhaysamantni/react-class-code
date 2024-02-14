@@ -1,6 +1,6 @@
 import React from 'react'
 
-// React-Router deck Slide 21
+// React-Router
 const Home = () => {
   return (
     <div>Home</div>
