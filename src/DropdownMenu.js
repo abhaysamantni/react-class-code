@@ -1,10 +1,11 @@
-// Dropdown Menu: An example that allows the user to select an option from a dropdown menu:
+// Dropdown Menu: An example that allows the user to select an option from a 
+// dropdown menu:
 
 
 
 import { useState } from 'react';
 
-function App1() {
+function DropdownMenu() {
     const [selectedOption, setSelectedOption] = useState("option1");
 
     const handleOptionChange = (event) => {
@@ -24,4 +25,4 @@ function App1() {
     </div>)
     
 }
-export default App1;
+export default DropdownMenu;

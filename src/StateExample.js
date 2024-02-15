@@ -1,12 +1,15 @@
-// In React, a component's "state" is an object that stores data specific to that component. 
-// This data can change over time and can be used to render dynamic content in the component. 
+// In React, a component's "state" is an object that stores data specific to 
+// that component. 
+// This data can change over time and can be used to render dynamic content 
+// in the component. 
 // The component's state is considered to be its "single source of truth".
-// This is an example of a simple component with state. Ref: Module 05 of Week 1: Implementing state of components
+// This is an example of a simple component with state.
+// Click button that shows how many times it has been clicked.
 
 
 import React, { useState } from 'react';
 
-function App1() {
+function StateExample() {
     const [count, setCount] = useState(0);
     return (
         <div>
@@ -18,4 +21,4 @@ function App1() {
   );
 }
 
-export default App1;
+export default StateExample;

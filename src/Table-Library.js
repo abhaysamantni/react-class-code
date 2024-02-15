@@ -1,5 +1,6 @@
-// 04_ReactTable deck: creating table from react-table library
-// In this example, we use the useTable hook from react-table to create a table instance with the given columns and data. 
+// 
+// In this example, we use the useTable hook from react-table to create a table 
+// instance with the given columns and data. 
 // We also use the prepareRow function to prepare each row for rendering. 
 // We then render the table and its contents using the getTableProps, getTableBodyProps, headerGroups, rows, and prepareRow 
 // functions provided by the table instance. 
