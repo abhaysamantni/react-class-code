@@ -9,12 +9,13 @@
 
 import React, { useState } from 'react';
 
-function StateExample() {
-    const [count, setCount] = useState(0);
+function StateExample(props) {
+    const [count, setCount] = useState(props.initialCount);
     return (
         <div>
             <p>Hi, You clicked this button {count} times</p>
-            <button onClick={() => setCount(count + 1)}>
+            
+            <button onClick={() => setCount(count + 2)}>
             Click me
         </button>
         </div>

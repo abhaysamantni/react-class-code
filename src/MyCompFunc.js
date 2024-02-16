@@ -21,7 +21,7 @@ function MyComponent(props) {
 const MyFunction = () => {
     return (
       <div>
-          <MyComponent title="Hello World" message="This is my first functional component" />
+          <MyComponent title="Hello EE461L" message="This is my first functional component" />
       </div>
     );
   };

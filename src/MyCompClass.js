@@ -11,13 +11,13 @@ import React, { Component } from 'react';
 class MyComponent extends Component {
   constructor(props) {
     super(props);
-    this.state = { message: 'Hello, Welcome to EE462L!' };
-    this.state = { message: 'Hello, Welcome to EE461L!'};
-  }
+    this.state = { message: 'Hello, Welcome to EE461L!' };
+      }
 
 
   render() {
-    return <h3>{this.state.message}</h3>;
+    
+    return <h1>{this.state.message}</h1>;
   }
 }
 

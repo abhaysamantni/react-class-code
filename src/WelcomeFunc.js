@@ -11,8 +11,12 @@
 import React from 'react';
 
 function Welcome(props) {
-    return <h1>Hi, {props.name} Welcome to the software!</h1>;
-
+    return (
+      <div>
+          <h1>Hi, {props.name} Welcome to the software!</h1>;
+          <h1>Hi, {props.name} your user id is {props.userid}</h1>;
+      </div>
+    ) 
 }
 
 function PresentUserID(props) {
@@ -23,10 +27,9 @@ function PresentUserID(props) {
 function WelcomeFunc() {
     return (
       <div>
-        <Welcome name = "Harry" />
-        <Welcome name = "Ron" />
-        <Welcome name = "Hermione" />
-        <PresentUserID userid = "1234" />
+        <Welcome name = "Harry" userid = "har"/>
+        <Welcome name = "Ron" userid = "ro"/>
+        <Welcome name = "Hermione" userid = "her"/>
       </div>
     );
   }

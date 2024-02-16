@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
 import MyComponent from './MyCompClass';
 import MyFunction from './MyCompFunc';
 import StateExample from './StateExample';
 import WelcomeFunc from './WelcomeFunc';
 import reportWebVitals from './reportWebVitals';
+import Form from './Forms';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,9 +14,10 @@ root.render(
     <div>
       <MyComponent/>
       <MyFunction/>
-      <StateExample/>
-      <StateExample/>
+      <StateExample initialCount={100}/>
+      <StateExample initialCount={200}/>
       <WelcomeFunc/>
+      <Form/>
     </div>
   </React.StrictMode>
 );

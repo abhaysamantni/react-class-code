@@ -9,7 +9,7 @@
 import React, { useState } from 'react';
 
 function Form() {
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState('Enter your name here');
 
   /**
    * Event handler for input change.
