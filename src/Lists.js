@@ -1,4 +1,8 @@
-function App1(){
+/**
+ * Renders a list of days.
+ * @returns {JSX.Element} The rendered list of days.
+ */
+function Lists(){
     const days = ['Sunday','Monday','Tuesday','Wednesday'];
     
     const listDays= days.map((day) => 
@@ -6,4 +10,4 @@ function App1(){
     return <ul> {listDays} </ul>;
     }
     
-export default App1
+export default Lists

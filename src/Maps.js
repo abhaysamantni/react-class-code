@@ -1,4 +1,4 @@
-// 03_ReactMaps Map Example
+
 //The example shows a component ObjectExample which contains an object obj1.
 //The object obj1 contains keys as integers and values as objects.
 //Object.entries() method returns an array of object’s key-value pairs.

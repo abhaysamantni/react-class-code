@@ -7,6 +7,8 @@ import StateExample from './StateExample';
 import WelcomeFunc from './WelcomeFunc';
 import reportWebVitals from './reportWebVitals';
 import Form from './Forms';
+import Lists from './Lists';
+import RadioButton from './RadioButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,8 +18,10 @@ root.render(
       <MyFunction/>
       <StateExample initialCount={100}/>
       <StateExample initialCount={200}/>
+      <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/>
       <WelcomeFunc/>
       <Form/>
+      <Lists/>
     </div>
   </React.StrictMode>
 );
