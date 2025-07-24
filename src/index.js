@@ -1,27 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MyComponent from './MyCompClass';
-import MyFunction from './MyCompFunc';
+//import MyComponent from './MyCompClass';
+import MyComponent from './MyCompFunc';
 import StateExample from './StateExample';
 import WelcomeFunc from './WelcomeFunc';
 import reportWebVitals from './reportWebVitals';
 import Form from './Forms';
 import Lists from './Lists';
 import RadioButton from './RadioButton';
+import DropdownMenu from './DropdownMenu';
+import DropDown from "./DropDown"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
-      <MyComponent/>
-      <MyFunction/>
-      <StateExample initialCount={100}/>
-      <StateExample initialCount={200}/>
-      <RadioButton radioItems={["Option 1", "Option 2", "Option 3"]}/>
-      <WelcomeFunc/>
-      <Form/>
-      <Lists/>
+      <MyComponent title="Hi" message="Hello world"/>
+      <StateExample initialCount={8} incrementValue={16}/>
+      <StateExample initialCount={0} incrementValue={2}/>
+      <DropdownMenu />
+      <DropDown message="Enter projectid"/>
+      <DropDown message="Enter hardwareid"/>
+      <Form defaultMessage="Enter your name" message="Your name"/>
+      <Form defaultMessage="Enter hardware you wish to check out" message="Your choice"/>
     </div>
   </React.StrictMode>
 );

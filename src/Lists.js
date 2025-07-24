@@ -2,10 +2,10 @@
  * Renders a list of days.
  * @returns {JSX.Element} The rendered list of days.
  */
-function Lists(){
-    const days = ['Sunday','Monday','Tuesday','Wednesday'];
+function Lists(props){
     
-    const listDays= days.map((day) => 
+    
+    const listDays= props.userList.map((day) => 
     <li> {day} </li>);
     return <ul> {listDays} </ul>;
     }

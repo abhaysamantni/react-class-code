@@ -25,7 +25,7 @@ const DropDownComponent = (props) => {
 // The list is then rendered using the <select> and <option> tags.
 // The list is traversed using the map() method and each item is dynamically rendered.
 
-const DropDownExample = () => {
+const DropDownExample = (props) => {
     const [inputVal, setInputVal] = useState("");
     const [itemList, setItemList] = useState([{ itemName: "--Select--" }]);
   
@@ -37,10 +37,10 @@ const DropDownExample = () => {
     return (
         <div>
           <center>
-            <h3>DropDown</h3>
+            <h3>props.title</h3>
             <input
               type="text"
-              placeholder="Enter the item..."
+              placeholder={props.message}
               value={inputVal}
               onChange={(e) => setInputVal(e.target.value)}
             ></input>

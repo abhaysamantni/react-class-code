@@ -15,7 +15,7 @@ function StateExample(props) {
         <div>
             <p>Hi, You clicked this button {count} times</p>
             
-            <button onClick={() => setCount(count + 2)}>
+            <button onClick={() => setCount(count + props.incrementValue)}>
             Click me
         </button>
         </div>

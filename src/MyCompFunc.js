@@ -25,4 +25,4 @@ const MyFunction = () => {
       </div>
     );
   };
-export default MyFunction;
+export default MyComponent;

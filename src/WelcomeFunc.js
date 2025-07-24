@@ -15,6 +15,7 @@ function Welcome(props) {
       <div>
           <h1>Hi, {props.name} Welcome to the software!</h1>;
           <h1>Hi, {props.name} your user id is {props.userid}</h1>;
+          <h2>This is a test</h2>
       </div>
     ) 
 }

@@ -8,8 +8,8 @@
  */
 import React, { useState } from 'react';
 
-function Form() {
-  const [inputValue, setInputValue] = useState('Enter your name here');
+function Form(props) {
+  const [inputValue, setInputValue] = useState(props.defaultMessage);
 
   /**
    * Event handler for input change.
@@ -29,7 +29,7 @@ function Form() {
           <input type="text" value={inputValue} onChange={handleInputChange}/>
           
         </label>
-        <p>Your name is: {inputValue}</p>
+        <h1>{props.message}: {inputValue}</h1>
       </form>
       </center>
       
