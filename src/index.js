@@ -17,13 +17,15 @@ root.render(
   <React.StrictMode>
     <div>
       <MyComponent title="Hi" message="Hello world"/>
+      <WelcomeFunc />
       <StateExample initialCount={8} incrementValue={16}/>
       <StateExample initialCount={0} incrementValue={2}/>
+      <StateExample initialCount={2} incrementValue={4}/>
       <DropdownMenu />
       <DropDown message="Enter projectid"/>
       <DropDown message="Enter hardwareid"/>
       <Form defaultMessage="Enter your name" message="Your name"/>
-      <Form defaultMessage="Enter hardware you wish to check out" message="Your choice"/>
+      <Form defaultMessage="Enter hardware you wish to check out" message="You chose"/>
     </div>
   </React.StrictMode>
 );
