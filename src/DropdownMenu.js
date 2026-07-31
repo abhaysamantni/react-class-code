@@ -6,7 +6,7 @@
 import { useState } from 'react';
 
 function DropdownMenu() {
-    const [selectedOption, setSelectedOption] = useState("option1");
+    const [selectedOption, setSelectedOption] = useState("option4");
 
     const handleOptionChange = (event) => {
         setSelectedOption(event.target.value);

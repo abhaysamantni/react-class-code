@@ -11,6 +11,7 @@ import Lists from './Lists';
 import RadioButton from './RadioButton';
 import DropdownMenu from './DropdownMenu';
 import DropDown from "./DropDown"
+import Toggle from "./Toggle"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <div>
       <MyComponent title="Hi" message="Hello world"/>
       <WelcomeFunc />
+      <Toggle />
       <StateExample initialCount={8} incrementValue={16}/>
       <StateExample initialCount={0} incrementValue={2}/>
       <StateExample initialCount={2} incrementValue={4}/>

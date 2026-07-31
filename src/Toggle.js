@@ -12,3 +12,15 @@ function Toggle() {
     setIsVisible(!isVisible);
 
   };
+
+  return (
+    <div>
+      <button onClick={handleToggle}>
+        {isVisible ? 'Hide' : 'Show'}
+      </button>
+      {isVisible && <p>Content is visible</p>}
+    </div>
+  );
+}
+
+export default Toggle;
